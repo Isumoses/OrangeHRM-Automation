@@ -26,6 +26,7 @@ def test_leavepage(driver):
     # Navigate to Leave page
     dashboard_page.go_to_leave()
     leave_page = LeavePage(driver)
+    time.sleep(1)
 
     # Verify dashboard loads
     assert leave_page.is_loaded(), "Leave page did not load after navigation."
