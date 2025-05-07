@@ -1,7 +1,7 @@
-from pages.login_page import LoginPage
-from pages.dashboard_page import DashboardPage
-from pages.leave_page import LeavePage
-from pages.logout_page import Logout
+from PageObjects.login_page import LoginPage
+from PageObjects.dashboard_page import DashboardPage
+from PageObjects.leave_page import LeavePage
+from PageObjects.logout_page import Logout
 import time
 
 def test_login(driver):
