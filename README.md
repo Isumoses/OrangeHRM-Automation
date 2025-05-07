@@ -1,3 +1,7 @@
+## IC 4305 - Software Quality Management and Test Automation (19/20)
+
+## Test Automation Assignment
+
 ### Installation
 
 1. Clone the repository:
